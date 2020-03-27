@@ -16,6 +16,19 @@ export default function Incident() {
       </View>
       <Text style={styles.title}>Bem-vindo</Text>
       <Text style={styles.description}>Escolha um dos casos abaixo e salve o dia</Text>
+
+      <View style={styles.incidentList}>
+        <View style={styles.incident}>
+          <Text style={styles.incidentProperty}>ONG:</Text>
+          <Text style={styles.incidentValue}>APAD</Text>
+
+          <Text style={styles.incidentProperty}>CASO:</Text>
+          <Text style={styles.incidentValue}>Cadela doente</Text>
+
+          <Text style={styles.incidentProperty}>VALOR:</Text>
+          <Text style={styles.incidentValue}>R$ 120</Text>
+        </View>
+      </View>
     </View>
   );
 }
